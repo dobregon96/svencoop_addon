@@ -1,0 +1,66 @@
+Time: 40
+sprites/dynamic_mapvote/half-life.spr|Half-Life|hl_c00|hl_c02_a1
+sprites/dynamic_mapvote/blue-shift.spr|Half-Life\nBlue Shift|ba_tram1|ba_canal1
+sprites/dynamic_mapvote/opposing-force.spr|Half-Life\nOpposing Force|of0a0|of1a1
+sprites/dynamic_mapvote/uplink.spr|Half-Life\nUplink|uplink
+sprites/dynamic_mapvote/decay.spr|Half-Life\nDecay|dy_accident1|dy_accident2
+sprites/dynamic_mapvote/of-utbm.spr|Half-Life\nOpposing Force: Under the Black Moon|of_utbm
+sprites/dynamic_mapvote/ua.spr|Half-Life\nUltimate Attack|ss0a0|ss1a1
+sprites/dynamic_mapvote/residuallife.spr|Residual Life|rk00|rl02
+sprites/dynamic_mapvote/half-life.spr|Case Closed|case1
+sprites/dynamic_mapvote/tunnelvision.spr|Tunnel Vision|tunnelvision_1
+sprites/dynamic_mapvote/echoes.spr|Echoes|echoes00|echoes06
+sprites/dynamic_mapvote/half-life.spr|Destination: Black Mesa|dbm_1
+sprites/dynamic_mapvote/disconator.spr|disco_boss
+sprites/dynamic_mapvote/instinct_v3.spr|\nInstinct|instinct_1|instinct_2
+sprites/dynamic_mapvote/half-life.spr|azure_sheep|asmap00|asmap00d
+sprites/dynamic_mapvote/persia.spr|Half-Life\npersia|sc_persia
+sprites/dynamic_mapvote/last.spr|Half-Life\nlast|last
+sprites/dynamic_mapvote/infested.spr|Half-Life\ninfested|infested
+sprites/dynamic_mapvote/intruder.spr|Half-Life\nintruder|intruder
+sprites/dynamic_mapvote/toonrun.spr|Half-Life\ntoonrun|toonrun1
+sprites/dynamic_mapvote/doc.spr|Half-Life\ndoc|sc_doc
+sprites/dynamic_mapvote/blackmesaepf.spr|Half-Life\nblackmesaepf|BlackMesaEPF
+sprites/dynamic_mapvote/TH-ep1.spr|Half-Life\nth_ep1|th_ep1_00|th_ep1_01
+sprites/dynamic_mapvote/TH-ep2.spr|Half-Life\nth_ep2|th_ep2_00
+sprites/dynamic_mapvote/TH-ep3.spr|Half-Life\nth_ep3|th_ep3_00
+sprites/dynamic_mapvote/TH-all.spr|Half-Life\nth_escape|th_escape
+sprites/dynamic_mapvote/tetris.spr|Half-Life\ntetris|sc_tetris1
+sprites/dynamic_mapvote/crack-life.spr|Half-Life\ncrack-life|cracklife_c00|cracklife_c01_a1
+sprites/dynamic_mapvote/tutorial.spr|Half-Life\nHalf-Life|hl_t00
+sprites/dynamic_mapvote/etc2.spr|Half-Life\nEarthQuake test center II|etc2_1
+sprites/dynamic_mapvote/restriction.spr|Half-Life\nrestriction|restriction01
+sprites/dynamic_mapvote/aom.spr|Half-Life\nAfraid Of Monsters|afraidofmonsters_lobby
+sprites/dynamic_mapvote/op4_boot.spr|Half-Life\nOpossing Force-Bootleg Squadrog|bootsquad1
+sprites/dynamic_mapvote/train.spr|Half-Life\nDAV-Train|davtrain1
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nyabma|yabma
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nhplanet|hplanet
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nsc_another|sc_another
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nsuspension|suspension
+sprites/dynamic_mapvote/half-life.spr|Half-Life\ndeadsimpleneo2|deadsimpleneo2
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nzero|zero
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nshattered|shattered
+sprites/dynamic_mapvote/half-life.spr|Half-Life\nvger|vger
+sprites/dynamic_mapvote/half-life.spr|Half-Life - Counter-Strike|hlcs_c00|hlcs_c02_a1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
