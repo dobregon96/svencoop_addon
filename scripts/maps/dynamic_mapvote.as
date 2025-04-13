@@ -1,4 +1,3 @@
-
 string g_model_floor_default;
 string g_model_floor_vote;
 string g_model_wall_default;
@@ -12,6 +11,38 @@ array<string> g_mapvote_2;
 int voteTime;
 int voteTime2;
 int targetMapIdx;
+// Event modes by Outerbeast
+const bool 
+	blEnableEventModes = true,
+	blHalloween = blEnableEventModes && DateTime().GetMonth() == 10,
+	blXmas = blEnableEventModes && ( ( DateTime().GetMonth() == 12 && DateTime().GetDayOfMonth() >= 15 ) || ( DateTime().GetMonth() == 1 && DateTime().GetDayOfMonth() < 7 ) );
+
+const array<string> STR_HALLOWEEN_ITEMS =
+{
+	"sprites/nmh_chan1.spr",
+	"sprites/nmh_chan2.spr",
+	"sprites/nmh_orb.spr",
+	"models/halloween/kerze.mdl",
+	"models/halloween/pumpkin0.mdl",
+	"models/halloween/pumpkin1.mdl",
+	"models/halloween/pumpkin2.mdl",
+	"models/halloween/pumpkin3.mdl",
+	"models/halloween/pumpkin4.mdl",
+	"models/halloween/pumpkin5.mdl"
+},
+STR_XMAS_ITEMS =
+{
+	"models/xmas/xmastree.mdl",
+	"models/xmas/xmas_lights.mdl",
+	"models/xmas/present_box.mdl",
+	"models/xmas/present_box1.mdl",
+	"models/xmas/present_box2.mdl",
+	"models/xmas/present_small.mdl",
+	"models/xmas/present1.mdl",
+	"models/xmas/present2.mdl",
+	"models/bm_sts/xmasextra_gifts.mdl",
+	"models/xmas/cg_cane01.mdl"
+};
 
 void addWallDefault(int x, int y){
 	string posi = ""+x+" "+y+" 2048";
@@ -160,8 +191,25 @@ void addTextToVoteScreen(int x, int y, string str){
 }
 
 void loadVoteFile(){
-	File@ pFile = g_FileSystem.OpenFile( "scripts/maps/store/mapvote_maps.txt", OpenFile::READ );
+	File@ pFile;
 	
+	if( blHalloween )
+	{
+		@pFile = g_FileSystem.OpenFile( "scripts/maps/store/mapvote_maps_halloween.txt", OpenFile::READ );
+		
+		if( pFile is null )
+			@pFile = g_FileSystem.OpenFile( "scripts/maps/store/mapvote_maps.txt", OpenFile::READ );
+	}
+	else if( blXmas )
+	{
+		@pFile = g_FileSystem.OpenFile( "scripts/maps/store/mapvote_maps_xmas.txt", OpenFile::READ );
+
+		if( pFile is null )
+			@pFile = g_FileSystem.OpenFile( "scripts/maps/store/mapvote_maps.txt", OpenFile::READ );
+	}
+	else
+		@pFile = g_FileSystem.OpenFile( "scripts/maps/store/mapvote_maps.txt", OpenFile::READ );
+
 	if( pFile is null || !pFile.IsOpen() ) {
 		g_mapvote_sprite.resize( 1 );
 		g_mapvote_title.resize( 1 );
@@ -260,6 +308,7 @@ void loadVoteFile(){
 				
 				if( g_mapvote_sprite[g_mapvote_sprite.size() - 1].Length() > 0 ){
 					g_Game.PrecacheModel( g_mapvote_sprite[g_mapvote_sprite.size() - 1] );
+					g_Game.PrecacheGeneric( g_mapvote_sprite[g_mapvote_sprite.size() - 1] );
 				}
 				
 				if(splitter3 != -1){
@@ -459,6 +508,23 @@ void MapInit(){
 	g_mapvote_2.resize( 0 );
 	
 	loadVoteFile();
+
+	if( blHalloween )
+	{
+		for( uint i = 0; i < STR_HALLOWEEN_ITEMS.length(); i++ )
+		{
+			g_Game.PrecacheModel( STR_HALLOWEEN_ITEMS[i] );
+			g_Game.PrecacheGeneric( STR_HALLOWEEN_ITEMS[i] );
+		}
+	}
+	else if( blXmas )
+	{
+		for( uint i = 0; i < STR_XMAS_ITEMS.length(); i++ )
+		{
+			g_Game.PrecacheModel( STR_XMAS_ITEMS[i] );
+			g_Game.PrecacheGeneric( STR_XMAS_ITEMS[i] );
+		}
+	}
 }
 
 void MapActivate(){
@@ -494,7 +560,6 @@ void MapActivate(){
 					g_model_ascii[ascii_number-32] = pEntity.pev.model;
 				}
 				g_EntityFuncs.Remove( pEntity );
-				
 			}
 		}
 	}
@@ -543,4 +608,123 @@ void MapActivate(){
 	}
 	
 	g_Scheduler.SetTimeout( "vote_logic", 1.0f );
+}
+
+void MapStart()
+{	// NO MORE REPEATING DECALS!!! - Outerbeast
+	CBaseEntity@ pWall;
+	while( ( @pWall = g_EntityFuncs.FindEntityByClassname( pWall, "func_wall" ) ) !is null )
+		pWall.pev.effects |= EF_NODECALS;
+
+	if( blHalloween )
+		HalloweenMode();
+	else if( blXmas )
+		XMasMode();
+}
+// Event modes by Outerbeast
+void HalloweenMode()
+{
+	CBaseEntity@ pWall, pPumpkin;
+
+	int iSprite = 1;
+	while( ( @pWall = g_EntityFuncs.FindEntityByClassname( pWall, "func_wall" ) ) !is null )
+	{
+		if( pWall is null || pWall.pev.absmin.y < -100 || pWall.pev.absmin.y > 640 )
+			continue;
+		// Make chanderliers
+		iSprite = iSprite == 1 ? 2 : 1;
+		CSprite@ pChanderlier = g_EntityFuncs.CreateSprite( "sprites/nmh_chan" + iSprite + ".spr", pWall.pev.absmin + Vector( 130, 0, 360 ), false );
+		pChanderlier.pev.rendermode = 2;
+		pChanderlier.pev.renderamt = 255;
+		pChanderlier.pev.effects |= EF_BRIGHTLIGHT;
+		
+		Vector vecOrbPos = pWall.pev.absmin + Vector( Math.RandomLong( -200, 200 ), Math.RandomLong( -200 , 200 ), 60 ) + Vector( 0, -200, Math.RandomLong( 100 , 300 ) );
+		Vector vecPumpkinPos = pWall.pev.absmin + Vector( Math.RandomLong( -200, 200 ), Math.RandomLong( -200 , 200 ), 60 ) - Vector( 0, 200, 0 );
+		Vector vecPumpkinAngles = Vector( 0, Math.RandomLong( 0, 360 ), 0 );
+		
+		if( vecOrbPos.y > -110 && vecOrbPos.y < 650 )
+		{
+			CSprite@ pOrb = g_EntityFuncs.CreateSprite( "sprites/nmh_orb.spr", vecOrbPos, false );
+			pOrb.pev.rendermode = kRenderTransAdd;
+			pOrb.pev.renderamt = 255.0f;
+			pOrb.pev.scale = Math.RandomFloat( 0.1, 0.3 );
+			g_EntityFuncs.DispatchKeyValue( pOrb.edict(), "vp_type", "3" );
+		}
+
+		dictionary pumpkin =
+		{
+			{ "origin", vecPumpkinPos.ToString() },
+			{ "angles", vecPumpkinAngles.ToString() },
+			{ "model", "models/halloween/pumpkin" + string( Math.RandomLong( 0 , 5 ) ) + ".mdl" },
+			{ "sequencename", "idle" },
+			{ "scale", "" + ( 1 * Math.RandomFloat( 0.7f, 1.6f ) ) }
+		};
+		
+		if( vecPumpkinPos.y > -110 && vecPumpkinPos.y < 650 )
+		{
+			@pPumpkin = g_EntityFuncs.CreateEntity( "item_generic", pumpkin );
+			pPumpkin.pev.effects |= EF_BRIGHTLIGHT; // This doesn't make any light
+
+			if( pPumpkin.pev.model == "models/halloween/pumpkin5.mdl" )
+				pPumpkin.pev.origin.z += 15;
+		}
+	}
+
+	for( uint i = 0; i < g_mapvote_sprite.length(); i++ )
+	{
+		CBaseEntity@ pEntity = g_EntityFuncs.FindEntityByString( pEntity, "model", g_mapvote_sprite[i] );
+
+		if( pEntity is null )
+			continue;
+
+		CSprite@ pCandle = g_EntityFuncs.CreateSprite( "models/halloween/kerze.mdl", pEntity.pev.origin + Vector( 0, 0, 70 ), false );
+		pCandle.pev.angles.y = 270;
+	}
+	// Make spoopy lighting! :D
+	g_EngineFuncs.LightStyle( 0 , "bbbbbbbbbbbbbbbbbbbbbbbbbb" );
+}
+
+void XMasMode()
+{
+	CBaseEntity@ pWall, pPresent, pTree;
+
+	while( ( @pWall = g_EntityFuncs.FindEntityByClassname( pWall, "func_wall" ) ) !is null )
+	{
+		if( pWall is null || pWall.pev.absmin.y < -100 || pWall.pev.absmin.y > 740 )
+			continue;
+
+		CSprite@ pLight = g_EntityFuncs.CreateSprite( "models/xmas/xmas_lights.mdl", pWall.pev.absmin + Vector( 130, 0, 390 ), false );
+		pLight.pev.angles.y = Math.RandomLong( 0, 1 ) == 0 ? 90 : 270;
+		pLight.pev.scale = 3.0f;
+		// gifts for everyone
+		Vector vecPresentPos = pWall.pev.absmin + Vector( Math.RandomLong( -200, 200 ), Math.RandomLong( -200 , 200 ), 60 ) - Vector( 0, 200, 0 );
+		Vector vecPresentAngles = Vector( 0, Math.RandomLong( 0, 360 ), 0 );
+
+		dictionary present =
+		{
+			{ "origin", vecPresentPos.ToString() },
+			{ "angles", vecPresentAngles.ToString() },
+			{ "model", STR_XMAS_ITEMS[Math.RandomLong( 2, 8 )] },
+			{ "scale", "" + ( 1 * Math.RandomFloat( 0.6f, 1.3f ) ) }
+		};
+
+		if( vecPresentPos.y > -110 && vecPresentPos.y < 650 )
+			@pPresent = g_EntityFuncs.CreateEntity( "item_generic", present );
+	}
+
+	for( uint i = 0; i < g_mapvote_sprite.length(); i++ )
+	{
+		CBaseEntity@ pEntity = g_EntityFuncs.FindEntityByString( pEntity, "model", g_mapvote_sprite[i] );
+
+		if( pEntity is null )
+			continue;
+
+		CSprite@ pCandy = g_EntityFuncs.CreateSprite( "models/xmas/cg_cane01.mdl", pEntity.pev.origin + Vector( 0, -2, 70 ), false );
+		pCandy.pev.scale = 0.1;
+		pCandy.pev.angles.y = 270;
+	}
+	// The final touch
+	@pTree = g_EntityFuncs.CreateSprite( "models/xmas/xmastree.mdl", Vector( 0, 300, 2110 ), false );
+	pTree.pev.angles.y = 90.0f;
+	pTree.pev.scale = 1.5f;
 }

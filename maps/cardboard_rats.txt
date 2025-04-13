@@ -1,0 +1,86 @@
+=======================================================
+Cardboard_Rats
+a Half-Life Deathmatch Experience by DocRock
+
+=======================================================
+Map Name:                       	cardboard_rats.bsp
+Release date:		Jan 2, 2020
+
+Author:                         	DocRock
+Author email:                   	docrock10@hotmail.com
+Twitch:			https://www.twitch.tv/docrock_creations
+Twitter:			https://twitter.com/DocRock_Maps
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Map description:                		A rats-style map in a cardboard bedroom.
+						
+wadincluded in map:          		cardboard.wad
+
+=======================================================
+CONSTRUCTION:
+
+editor used:                    	 	Hammer 3.5.2
+utilities used:                 		Vluzacn's 64 bit compile tools
+				Paintshop
+				Wally
+				Half-Life model viewer
+				Goldwave	
+compile machine:                		Windows 10 Shuttle R8
+				Intel(R) Core(TM) i7-7700K 4.20 Ghz 
+				64.0 GB RAM Quadro GeForce 
+				
+compile time:                   		2 minutes
+
+=======================================================
+INSTALLATION:
+
+1. 	Run Winrar and unzip cardboard_rats.zip
+
+2. 	Open the cardboard_rats folder and place the cardboard_rats.bsp, cardboard_rats.res, and cardboard_rats.txt 	in your valve/maps folder.  
+
+3.	Place the 6 (six) sunset.tga files into your valve/gfx/env folder.
+
+4.	Put the cardboard sound folder in the valve/sound folder.
+
+5. 	Place the cardboard sprite folder inside the valve/sprite folder.
+
+=======================================================
+SOUND THANKS:
+
+these sounds were downloaded for free at freesound.org
+
+crk365_1			birdies
+eliasheuninck		train horn
+
+cardboard_cowboy 		cardboard_cowboy theme
+
+=======================================================
+BETA TESTERS
+
+babykitkat
+
+=======================================================
+SKYBOX AUTHOR
+
+DeviLMaqqeR*
+
+=======================================================
+SPECIAL THANKS
+
+Cardboard_Cowboy
+https://www.twitch.tv/cardboard_cowboy
+A streamer on twitch who's entire stream is made of cardboard.  I based this map on
+the bedroom in his cardboard house.
+
+To my babykitkat, my lover, my sweetheart, my wife.  I love you!!  My #1 fan, thanks baby
+for playtesting and helping me with this awesome map!  I DEDICATE THIS TO YOU!
+
+
+
+
+
+
+
+	
