@@ -1,0 +1,10 @@
+
+
+
+//KEZAEIV's NEW SENTENCES
+KZ_AN01 buzwarn,  warning, lol power in sector kilo 
+KZ_ADSTF_AN01 buzwarn,  warning, dimensional energy distortion detected 
+
+
+
+
