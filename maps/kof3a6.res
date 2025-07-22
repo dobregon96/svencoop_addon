@@ -1,9 +1,6 @@
 // Created with resguy v9 (September 2018)
 // https://github.com/wootguy/resguy
 
-models/kezaeiv/clssc/wps/superarmor.mdl
-models/kezaeiv/clssc/wps/superhealth.mdl
-models/kezaeiv/icons/mk_logo_blue.mdl
 models/kezaeiv/icons/mk_logo_cyan.mdl
 models/kezaeiv/kof/npc/agrunt.mdl
 models/kezaeiv/kof/npc/agruntf.mdl
@@ -84,8 +81,11 @@ models/oghs/cm/wep/w_spore_launcher.mdl
 models/oghs/cm/wep/w_uzi.mdl
 models/oghs/cm/wep/w_uzi_clip.mdl
 models/oghs/cm/wep/w_uzi_gold.mdl
+models/singularity/icons/mk_logo_blue.mdl
 models/singularity/kz_npcs/pit_prpl.mdl
-models/singularity/kz_npcs/strooper_red.mdl
+models/singularity/kz_npcs/strooper_rd.mdl
+models/singularity/misc/armor_red.mdl
+models/singularity/misc/health_heart.mdl
 sound/kezaeiv/misc/cp_nod_reinf.mp3
 sound/kezaeiv/music/rollermobster.ogg
 sound/kezaeiv/music/rollermobsterintro.ogg
@@ -122,6 +122,7 @@ sound/singularity/npc/igi2_g36_shot.wav
 sound/singularity/npc/quake3_grenade_shot.wav
 sound/singularity/npc/quake4_plasma_shot.wav
 sound/singularity/npc/starcraft_ghost_rifle.wav
-sound/singularity/pku/superarmor.wav
+sound/singularity/pku/superarmor2.wav
 sound/singularity/pku/superhealth.wav
+sprites/singularity/fx/obsidianflame.spr
 sprites/singularity/prtl/kz_exit1.spr

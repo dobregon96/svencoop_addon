@@ -1,0 +1,9 @@
+attachment 0 
+bone 0 
+spritename sprites/wep_smoke_02.spr 
+scale  15
+colorR 55
+colorB 55
+colorG 55
+rendermode 5
+transparency 55

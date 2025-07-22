@@ -1,0 +1,37 @@
+"hgrunt/gr_pain1.wav"" "scmod/npcs/female_massn/gr_pain1.ogg"
+"hgrunt/gr_pain2.wav"" "scmod/npcs/female_massn/gr_pain2.ogg"
+"hgrunt/gr_pain3.wav"" "scmod/npcs/female_massn/gr_pain3.ogg"
+"hgrunt/gr_pain4.wav"" "scmod/npcs/female_massn/gr_pain4.ogg"
+"hgrunt/gr_pain5.wav"" "scmod/npcs/female_massn/gr_pain5.ogg"
+
+"hgrunt/gr_die1.wav"" "scmod/npcs/female_massn/gr_die1.ogg"
+"hgrunt/gr_die2.wav"" "scmod/npcs/female_massn/gr_die2.ogg"
+"hgrunt/gr_die3.wav"" "scmod/npcs/female_massn/gr_die3.ogg"
+
+"ops/of2a5_bo01.wav" "scmod/npcs/female_massn/of2a5_bo01.ogg"
+"ops/of2a5_bo02.wav" "scmod/npcs/female_massn/of2a5_bo02.ogg"
+"ops/of2a5_bo03.wav" "scmod/npcs/female_massn/of2a5_bo03.ogg"
+
+"ops/of6a2_bo01.wav" "scmod/npcs/female_massn/of6a2_bo01.ogg"
+"ops/of6a2_bo01.wav" "scmod/npcs/female_massn/of6a2_bo02.ogg"
+"ops/of6a2_bo01.wav" "scmod/npcs/female_massn/of6a2_bo03.ogg"
+
+"!BA_OK0" "scmod/npcs/barniel/teamup2.wav"
+"!BA_OK1" "scmod/npcs/barniel/yessir.wav"
+"!BA_OK2" "scmod/npcs/barniel/hoyes.wav"
+"!BA_OK3" "scmod/npcs/barniel/teamup1.wav"
+"!BA_OK4" "scmod/npcs/barniel/rightway.wav"
+"!BA_OK5" "scmod/npcs/barniel/bn_bring.wav"
+"!BA_OK6" "scmod/npcs/barniel/badfeeling.wav"
+
+"!BA_WAIT0" "scmod/npcs/barniel/seelater.wav"
+"!BA_WAIT1" "scmod/npcs/barniel/humm.wav"
+"!BA_WAIT2" "scmod/npcs/barniel/seeyoulater.wav"
+"!BA_WAIT3" "scmod/npcs/barniel/waitin.wav"
+"!BA_WAIT4" "scmod/npcs/barniel/seeya.wav"
+"!BA_WAIT5" "scmod/npcs/barniel/stop1.wav"
+
+"!BA_POK0" "null.wav"
+"!BA_POK1" "null.wav"
+"!BA_POK2" "null.wav"
+"!BA_POK3" "null.wav"

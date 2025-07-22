@@ -1,0 +1,7 @@
+6
+weapon			640 scmod/ut99/mini	0	0	170	45
+weapon_s		640 scmod/ut99/mini	0	45	170	45
+ammo			640 scmod/ut99/9mm	0	0	32	32
+ammo2			640 scmod/ut99/arg	0	0	32	32
+crosshair			640 scmod/ut99/crosshair	0	0	31	31
+autoaim			640 crosshairs	48	72	24	24

@@ -1,0 +1,4 @@
+3
+weapon			640 scmod/boderbot/mechabees	0	0	170	45
+weapon_s		640 scmod/boderbot/mechabees	0	45	170	45
+ammo			640 scmod/ut99/arrow	0	0	24	24

@@ -81,6 +81,7 @@ models/oghs/cm/wep/w_spore_launcher.mdl
 models/oghs/cm/wep/w_uzi.mdl
 models/oghs/cm/wep/w_uzi_clip.mdl
 models/oghs/cm/wep/w_uzi_gold.mdl
+models/singularity/kz_npcs/islave_aggressive.mdl
 models/singularity/kz_npcs/massn_ghost.mdl
 sound/kezaeiv/misc/cp_nod_reinf.mp3
 sound/oghs/cs06/a!.wav
@@ -116,4 +117,5 @@ sound/singularity/npc/igi2_g36_shot.wav
 sound/singularity/npc/quake3_grenade_shot.wav
 sound/singularity/npc/quake4_plasma_shot.wav
 sound/singularity/npc/starcraft_ghost_rifle.wav
+sprites/singularity/fx/obsidianflame.spr
 sprites/singularity/prtl/kz_exit1.spr

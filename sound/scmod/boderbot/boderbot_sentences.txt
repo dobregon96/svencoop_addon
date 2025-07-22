@@ -1,0 +1,208 @@
+// rocket
+ROCKET0 hunger/thambs/amb_3hit
+ROCKET1 hunger/thambs/incoming(p80)
+ROCKET2 mommamesa/waveloop(p115)
+ROCKET3 ambience/rocket_groan1
+ROCKET4 ambience/rocket_groan2
+ROCKET5 ambience/rocket_groan3
+ROCKET6 ambience/rocket_groan4
+
+
+// distant war zone
+FAR_WAR0 ambience/(v50) distantmortar1
+FAR_WAR1 ambience/(v60) distantmortar2
+FAR_WAR2 ambience/(v50) distantmortar3
+FAR_WAR3 ambience/(v15) biggun3
+FAR_WAR4 mommamesa/megagauss/(v20) gauss2
+FAR_WAR5 ambience/(v10 p120) mortar_background_01
+FAR_WAR6 sandstone/(v10) machinegun
+FAR_WAR7 ambience/(v30) distantmortar1 distantmortar3 distantmortar2
+FAR_WAR8 ambience/(v10) biggun2 biggun2 biggun2
+FAR_WAR9 sandstone/(v15) machinegun2
+FAR_WAR10 ambience/(v20) biggun1 rifle2
+FAR_WAR11 ambience/(v60) distantmortar1 distantmortar1, distantmortar2, distantmortar1
+FAR_WAR12 ambience/(v30) distantmortar2, distantmortar2 distantmortar2 distantmortar2, distantmortar3 distantmortar1
+FAR_WAR13 sandstone/(v10) missiles
+FAR_WAR14 sandstone/(v15) missiles2
+FAR_WAR15 sandstone/(v10) infantry
+FAR_WAR16 ambience/(v10) biggun2, biggun2 biggun2
+
+
+// near war zone
+NEAR_WAR0 sc_robination/(v60) petardo1
+NEAR_WAR1 sc_robination/(v60) crash
+NEAR_WAR2 crystal/(v60) platstop1
+NEAR_WAR3 tfc/weapons/(v60) sgun1
+NEAR_WAR4 sp_portal/(v60) telewarn_venture1
+NEAR_WAR5 crystal/(v60) platmove1
+NEAR_WAR6 tfc/weapons/(v60) concgren_blast1
+NEAR_WAR7 ambience/distantmortar1 distantmortar3 distantmortar2
+NEAR_WAR8 tfc/weapons/(v60) concgren_blast2
+NEAR_WAR9 tfc/weapons/(v60) concgren_blast3
+NEAR_WAR10 last/(v40) lightclunk-big lightclunk-big lightclunk-big 
+NEAR_WAR11 ambience/distantmortar1 distantmortar1, distantmortar2
+NEAR_WAR12 tfc/weapons/(v60) flmgrexp
+
+
+// ROBOT GRUNTS
+
+RB_GREN0 vox/bizwarn(p115) grenade(p115)
+RB_GREN1 vox/dadeda(p115) take(p115) coded(p115)
+
+RB_ALERT0 vox/exterminate(p115) seven(p115) code(p115)
+RB_ALERT1 vox/idiot(p115) detected(p115)
+
+RB_MONST0 vox/biohazard(p115) breach(p115)
+RB_MONST1 vox/invasion(p115) activity(p115)
+RB_MONST2 vox/exterminate(p115)
+
+RB_COVER0 vox/get(p115) back(p115) dadeda(p115)
+RB_COVER1 vox/back(p115) up(p115) required(p115) bizwarn(p115)
+
+RB_THROW0 vox/buzzwarn(p115) take(p115) this(p115) you(p115) fool(p115)
+RB_THROW0 vox/buzzwarn(p115) up(p115) your(p115) ass(p115)
+
+RB_TAUNT0 vox/intruder(p115) must(p115) go(p115) sterile(p115)
+RB_TAUNT1 vox/surrender(p115) and(p115) die(p115)
+
+RB_CHARGE0 vox/violation(p115) of(p115) hole(p115) authorized(p115)
+RB_CHARGE1 vox/accelerating(p115)
+RB_CHARGE1 vox/engage(p115)
+
+RB_QUEST0 vox/i(p115) am(p115) supercooled(p115)
+RB_QUEST1 vox/report(p115) tango(p115) presence(p115)
+
+RB_ANSWER0 vox/ass(p115) sterilization(p115) ammunition(p115) is(p115) authorized(p115)
+RB_ANSWER1 vox/all(p115) ass(p115) destroyed(p115)
+
+RB_CHECK0 vox/area(p115) status(p115) check(p115)
+RB_CHECK1 vox/accelerator(p115) reports(p115)
+RB_CHECK2 vox/please(p115) report(p115) status(p115)
+
+RB_CLEAR0 vox/idiot(p115) number(p115) is(p115) zero(p115)
+RB_CLEAR1 vox/no(p115) coomer(p115) in(p115) sight(p115)
+RB_CLEAR2 vox/all(p115) ass(p115) violated(p115)
+
+RB_IDLE0 vox/i(p115) am(p115) supercooled(p115)
+RB_IDLE1 vox/violation(p115) of(p115) ass(p115) is(p115) green(p115)
+RB_IDLE2 vox/sterilization(p115) systems(p115) check(p115)
+RB_IDLE3 vox/search(p115)(t50) ing(p115) seven(p115) ass(p115)
+
+
+// VGER ROBOT GRUNTS
+
+VRB_GREN0 vox/bizwarn(p115) grenade(p115)
+VRB_GREN1 vox/dadeda(p115) take(p115) coded(p115)
+
+VRB_ALERT0 vox/exterminate(p115) seven(p115) code(p115)
+VRB_ALERT1 vox/idiot(p115) detected(p115)
+
+VRB_MONST0 vox/biohazard(p115) breach(p115)
+VRB_MONST1 vox/invasion(p115) activity(p115)
+VRB_MONST2 vox/exterminate(p115)
+
+VRB_COVER0 vox/get(p115) back(p115) dadeda(p115)
+VRB_COVER1 vox/back(p115) up(p115) required(p115) bizwarn(p115)
+
+VRB_THROW0 vox/buzzwarn(p115) take(p115) this(p115) you(p115) fool(p115)
+VRB_THROW0 vox/buzzwarn(p115) up(p115) your(p115) ass(p115)
+
+VRB_TAUNT0 vox/intruder(p115) must(p115) go(p115) sterile(p115)
+VRB_TAUNT1 vox/surrender(p115) and(p115) die(p115)
+
+VRB_CHARGE0 vox/violation(p115) of(p115) hole(p115) authorized(p115)
+VRB_CHARGE1 vox/accelerating(p115)
+VRB_CHARGE1 vox/engage(p115)
+
+VRB_QUEST0 vox/i(p115) am(p115) supercooled(p115)
+VRB_QUEST1 vox/report(p115) tango(p115) presence(p115)
+
+VRB_ANSWER0 vox/ass(p115) sterilization(p115) ammunition(p115) is(p115) authorized(p115)
+VRB_ANSWER1 vox/all(p115) ass(p115) destroyed(p115)
+
+VRB_CHECK0 vox/area(p115) status(p115) check(p115)
+VRB_CHECK1 vox/accelerator(p115) reports(p115)
+VRB_CHECK2 vox/please(p115) report(p115) status(p115)
+
+VRB_CLEAR0 vox/idiot(p115) number(p115) is(p115) zero(p115)
+VRB_CLEAR1 vox/no(p115) coomer(p115) in(p115) sight(p115)
+VRB_CLEAR2 vox/all(p115) ass(p115) violated(p115)
+
+VRB_IDLE0 vox/i(p115) am(p115) supercooled(p115)
+VRB_IDLE1 vox/violation(p115) of(p115) ass(p115) is(p115) green(p115)
+VRB_IDLE2 vox/sterilization(p115) systems(p115) check(p115)
+VRB_IDLE3 vox/search(p115)(t50) ing(p115) seven(p115) ass(p115)
+
+
+
+// KAMIKAZE ROBOT GRUNTS
+
+KRB_GREN0 vox/a(p120) deeoo(p120)
+KRB_GREN1 vox/are(p120) deeoo(p120)
+
+KRB_ALERT0 vox/accelerating(p120)
+KRB_ALERT1 vox/adios(p120) amigo(p120)
+
+KRB_MONST0 vox/at(p120)
+KRB_MONST1 vox/armed(p120)
+KRB_MONST2 vox/engage(p120)
+
+KRB_COVER0 vox/error(p120) deeoo(p120)
+KRB_COVER1 vox/danger(p120) deeoo(p120)
+KRB_THROW0 vox/explode(p120) deeoo(p120)
+KRB_THROW0 vox/explosion(p120) deeoo(p120)
+
+KRB_TAUNT0 vox/all(p120) wall(p120) hole(p120) at(p120) are(p120)
+KRB_TAUNT1 vox/we(p120) will(p120) explode(p120) your(p120) ass(p120)
+
+KRB_CHARGE0 vox/destroy(p120)
+KRB_CHARGE1 vox/arm(p120)
+KRB_CHARGE1 vox/kill(p120)
+
+KRB_QUEST0 vox/i(p120) am(p120) superconducting(p120)
+KRB_QUEST1 vox/i(p120) am(p120) safe(p120) to(p120) explode(p120)
+KRB_ANSWER0 vox/error(p120)
+KRB_ANSWER1 vox/blast(p120) device(p120) armed(p120)
+
+KRB_CHECK0 vox/explosion(p120) status(p120) check(p120)
+KRB_CHECK1 vox/accelerator(p120) reports(p120)
+KRB_CHECK2 vox/please(p120) report(p120) explosion(p120)
+
+KRB_CLEAR0 vox/area(p120) has(p120) no(p120) explosion(p120)
+KRB_CLEAR1 vox/no(p120) explosion(p120) detected(p120)
+KRB_CLEAR2 vox/search(p120)(t50) ing(p120) your(p120) ass(p120)
+
+KRB_IDLE0 vox/all(p120) blast(p120) systems(p120) nominal(p120)
+KRB_IDLE1 vox/explosion(p120) relay(p120) is(p120) green(p120)
+KRB_IDLE2 vox/explosion(p120) systems(p120) check(p120) is(p120) green(p120)
+KRB_IDLE3 vox/search(p120)(t50) ing(p120) error(p120)
+
+
+
+// AGRUNT ROBOT
+
+AGR_ALERT1 vox/adios(p80)
+AGR_ALERT2 vox/coomer(p80)
+AGR_ALERT3 vox/tango(p80)
+AGR_ALERT4 vox/surrender(p80)
+AGR_ALERT5 vox/lol(p80)
+
+AGR_IDLE1 vox/been(p80)
+AGR_IDLE2 vox/supercooled(p80)
+AGR_IDLE3 vox/clear(p80)
+AGR_IDLE4 vox/chemical(p80)
+AGR_IDLE5 vox/biohazard(p80)
+
+AGR_PAIN1 vox/damage(p80)
+AGR_PAIN2 vox/damaged(p80)
+AGR_PAIN3 vox/pain(p80)
+
+
+
+// HW ROBOGRUNT
+
+HWRB_ALERT vox/move(p110) men(p110)
+HWRB_IDLE vox/may(p110) ass(p110) is(p110) head(p110) be(p110)
+HWRB_GREN vox/shut(p110) that(p110) is(p110) a(p110) grenade(p110)
+HWRB_COVER vox/take(p110) coded(p110)
+HWRB_TAUNT vox/micro(p110) gun(p110) fire(p110)

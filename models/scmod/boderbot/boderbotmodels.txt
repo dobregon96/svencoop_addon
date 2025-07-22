@@ -1,0 +1,101 @@
+"models/v_m16a2.mdl" "models/scmod/weapons/aliens/m41a/v_m16a2.mdl"
+"models/p_m16.mdl" "models/scmod/weapons/aliens/m41a/p_m16.mdl"
+"models/w_m16.mdl" "models/scmod/weapons/aliens/m41a/w_m16.mdl"
+
+"models/v_minigun.mdl" "models/scmod/weapons/aliens/smartgun/v_minigun.mdl"
+"models/w_minigun.mdl" "models/scmod/weapons/aliens/smartgun/w_minigun.mdl"
+"models/p_minigunidle.mdl" "models/scmod/weapons/aliens/smartgun/p_minigunidle.mdl"
+"models/p_minigunspin.mdl" "models/scmod/weapons/aliens/smartgun/p_minigunspin.mdl"
+
+"models/v_grenade.mdl" "models/scmod/boderbot/weapons/v_grenade.mdl"
+"models/w_grenade.mdl" "models/scmod/boderbot/weapons/w_grenade.mdl"
+"models/p_grenade.mdl" "models/scmod/boderbot/weapons/p_grenade.mdl"
+
+"models/p_satchel.mdl" "models/scmod/boderbot/weapons/p_kamikaze_bomb.mdl"
+"models/w_satchel.mdl" "models/scmod/boderbot/weapons/p_kamikaze_bomb.mdl"
+
+"models/v_hgun.mdl" "models/scmod/boderbot/weapons/v_hgun.mdl"
+"models/w_hgun.mdl" "models/scmod/boderbot/weapons/w_hgun.mdl"
+"models/p_hgun.mdl" "models/scmod/boderbot/weapons/p_hgun.mdl"
+"models/hornet.mdl" "models/scmod/boderbot/weapons/hornet.mdl"
+
+"models/v_saw.mdl" "models/scmod/boderbot/weapons/v_saw.mdl"
+"models/w_saw.mdl" "models/scmod/boderbot/weapons/w_saw.mdl"
+"models/p_saw.mdl" "models/scmod/boderbot/weapons/p_saw.mdl"
+
+"models/v_desert_eagle.mdl" "models/xad_zubben/v_deagle.mdl"
+"models/p_desert_eagle.mdl" "models/altoverride/p_deagle.mdl"
+"models/w_desert_eagle.mdl" "models/altoverride/w_deagle.mdl"
+
+"models/v_egon.mdl" "models/scmod/weapons/ut99/pulsegun/v_egon.mdl"
+"models/p_egon.mdl" "models/scmod/weapons/ut99/pulsegun/p_egon.mdl"
+"models/w_egon.mdl" "models/scmod/weapons/ut99/pulsegun/w_egon.mdl"
+
+"models/v_gauss.mdl" "models/scmod/weapons/ut99/ut2k4shock/v_gauss.mdl"
+"models/p_gauss.mdl" "models/scmod/weapons/ut99/ut2k4shock/p_gauss.mdl"
+"models/w_gauss.mdl" "models/scmod/weapons/ut99/ut2k4shock/w_gauss.mdl"
+
+"models/v_rpg.mdl" "models/scmod/weapons/ut99/rocket/v_rpg.mdl"
+"models/p_rpg.mdl" "models/scmod/weapons/ut99/rocket/p_rpg.mdl"
+"models/w_rpg.mdl" "models/scmod/weapons/ut99/rocket/w_rpg.mdl"
+"models/w_rpgammo.mdl" "models/scmod/weapons/ut99/w_rpgammo.mdl"
+
+"models/v_spore_launcher.mdl" "models/scmod/weapons/tfc/glauncher/v_spore_launcher.mdl"
+"models/p_spore_launcher.mdl" "models/scmod/weapons/tfc/glauncher/p_spore_launcher.mdl"
+"models/w_spore_launcher.mdl" "models/scmod/weapons/tfc/glauncher/w_spore_launcher.mdl"
+"models/spore.mdl" "models/scmod/boderbot/weapons/spore_bean.mdl"
+
+"models/w_weaponbox.mdl" "models/scmod/boderbot/items/w_weaponbox.mdl"
+
+"models/w_gaussclip.mdl" "models/chan_space_escape/items/new_obs.mdl"
+"models/w_9mmarclip.mdl" "models/scmod/weapons/ut99/w_9mmarclip.mdl"
+"models/w_rpgclip.mdl" "models/gunmanchronicles/dmlammo.mdl"
+"models/w_medkit.mdl" "models/scmod/weapons/ut99/w_medkit.mdl"
+"models/w_shotbox.mdl" "models/scmod/weapons/ut99/w_shotbox.mdl"
+"models/w_chainammo.mdl" "models/scmod/weapons/ut99/w_chainammo.mdl"
+
+"models/w_suit.mdl" "models/scmod/weapons/ut99/w_suit.mdl"
+"models/barney_vest.mdl" "models/scmod/weapons/ut99/w_suit.mdl"
+"models/barney_helmet.mdl" "models/scmod/weapons/ut99/w_battery.mdl"
+
+"models/v_m40a1.mdl" "models/scmod/weapons/ut99/sniper/v_sniperrifle.mdl"
+"models/p_m40a1.mdl" "models/scmod/weapons/ut99/sniper/p_sniperrifle.mdl"
+"models/w_m40a1.mdl" "models/scmod/weapons/ut99/sniper/w_sniperrifle.mdl"
+"models/w_m40a1clip.mdl" "models/scmod/weapons/ut99/w_weaponbox_sniper.mdl"
+
+"models/hgrunt.mdl" "models/scmod/zubben/pirate.mdl"
+"models/hwgrunt.mdl" "models/scmod/boderbot/hwgrunt_space.mdl"
+"models/sentry.mdl" "models/scmod/boderbot/vgersentry.mdl"
+"models/rgrunt.mdl" "models/scmod/boderbot/vgergrunt.mdl"
+"models/massn.mdl" "models/scmod/boderbot/massnbomb.mdl"
+"models/barnabus.mdl" "models/scmod/boderbot/cbarney.mdl"
+"models/barney.mdl" "models/scmod/zubben/barnspace.mdl"
+
+"models/garg.mdl" "models/scmod/boderbot/robogarg.mdl"
+"models/controller.mdl" "models/scmod/exodus/robocontroller.mdl"
+"models/babygarg.mdl" "models/scmod/jed/tfc_pyro.mdl"
+"models/zombie.mdl" "models/scmod/boderbot/robobug2.mdl"
+"models/zombie_barney.mdl" "models/scmod/spaceprisoner/robozombie.mdl"
+"models/zombie_soldier.mdl" "models/scmod/boderbot/zombie_hev.mdl"
+
+"models/hgruntf.mdl" "models/scmod/zubben/hgruntf.mdl"
+"models/hgrunt_opforf.mdl" "models/scmod/boderbot/hev_opfor.mdl"
+"models/hgrunt_opfor.mdl" "models/scmod/zubben/hgrunt.mdl"
+"models/scientist.mdl" "models/scmod/alab/svensci.mdl"
+"models/cleansuit_scientist.mdl" "models/scmod/alab/sven_cleansuit.mdl"
+"models/barney.mdl" "models/scmod/zubben/barnspace.mdl"
+
+"models/w_squeak.mdl" "models/scmod/sledge/robosnark.mdl"
+"models/w_sqknest.mdl" "models/scmod/sledge/robonest.mdl"
+"models/v_squeak.mdl" "models/scmod/sledge/v_squeak.mdl"
+"models/p_squeak.mdl" "models/scmod/sledge/p_squeak.mdl"
+
+"models/dead_osprey.mdl" "models/blkop_enginegibs.mdl"
+"models/blkop_dead_osprey.mdl" "models/scmod/boderbot/flagship.mdl"
+
+"models/turret.mdl" "models/scmod/boderbot/turret_square.mdl"
+"models/miniturret.mdl" "models/scmod/boderbot/miniturret_360.mdl"
+
+"models/computergibs.mdl" "models/scmod/boderbot/robogibs.mdl"
+
+"models/agrunt.mdl" "models/scmod/boderbot/agrunt_robo.mdl"

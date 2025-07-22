@@ -1,0 +1,2 @@
+"apache/ap_rotor2.wav" "mommamesa/hovertank_loop.ogg"
+"turret/tu_fire1.wav" "_oxysound/uberlaser1.wav"

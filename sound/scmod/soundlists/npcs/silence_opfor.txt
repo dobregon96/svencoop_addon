@@ -128,6 +128,7 @@
 "!MG_HEAL1" "null.wav"
 "!MG_HEAL2" "null.wav"
 "!MG_NOTHEAL0" "null.wav"
+
 "fgrunt/alert.wav" "null.wav"
 "fgrunt/area.wav" "null.wav"
 "fgrunt/ass.wav" "null.wav"
@@ -227,18 +228,21 @@
 "fgrunt/watchit.wav" "null.wav"
 "fgrunt/yes.wav" "null.wav"
 "fgrunt/zone.wav" "null.wav"
+
 "fgrunt/pain1.wav" "null.wav"
 "fgrunt/pain2.wav" "null.wav"
 "fgrunt/pain3.wav" "null.wav"
 "fgrunt/pain4.wav" "null.wav"
 "fgrunt/pain5.wav" "null.wav"
 "fgrunt/pain6.wav" "null.wav"
+
 "fgrunt/gr_pain1.wav" "null.wav"
 "fgrunt/gr_pain2.wav" "null.wav"
 "fgrunt/gr_pain3.wav" "null.wav"
 "fgrunt/gr_pain4.wav" "null.wav"
 "fgrunt/gr_pain5.wav" "null.wav"
 "fgrunt/gr_pain6.wav" "null.wav"
+
 "fgrunt/death1.wav" "null.wav"
 "fgrunt/death2.wav" "null.wav"
 "fgrunt/death3.wav" "null.wav"

@@ -1,0 +1,36 @@
+RICHARD BODERBOT CREDITS
+
+* Item inventory sprites by Acehigh
+* Xan Grunt by Dunkelschwamm
+* Xada for the things taken from his Zubben port
+* Gluongun, Ethereal, Plasmagun, redeemer, biorifle, beamsword, elites and quad barrel shotgun weapons scripts by Nero/Neyami
+* cursed e11 blaster (instagib) by Cubemath
+* rocket launcher script by Gaftherman from Half Nuked port
+* c96 from INS2 weapon pack by KernCore, DNIO, R4to0 and Norman
+* monster electro (boderbot) script by Takedeppo 50 cal
+* Shockterial (shockrifle replacement), devastator (saw replacement) and drone shooter (hornetgun) weapon models by Ghost141991, Nekronaium and TEXHAPb!!!
+* UT2004 base script by R4to0 and Nero
+* UT2004 Shock rifle model by L0B0M4XH4CK
+* Spring_Benben (Leet Crew bodyguard model)
+* Viking testing facility skybox (Half-Life Alyx workshop skybox by [TR]-Emir)
+* Goob (dino fassn model)
+* Robo snarks by tu3sday's avenger
+* Unreal weapons and items from Unreal Pack for HL by 3037
+* Unreal HD textures by the UTHD 3.0 team
+* Music by: Necto Ulin, Lonnie Maynard, Darkice, Lix, Extraterra, Terrabite, Arcanedreams, TMX, Mothership Loudspeakerz, Four Nines, RaptorSKA
+* Starcraft Firebat garg replacement model, Nexon robogrunts and Adam 834N boss model ported by Tenko
+* Pulse rifle model from Unreal Tournament 99 by CS_PRO and georg_destroy
+
+
+RICHARD BODERBOT MAP CREDITS
+
+gg_ng_hyperblast by Der Krapfenmann
+ze_deadspace_v2 by SicariusAMW
+ze_doom_escape by ElectroMancer
+dm_ng_deck16 by Der Krapfenmann
+dm_stranded by  the hunter
+ze_space_station_chapter_ONE by Eula_Mapper
+ze_space_station_chapter_TWO by Eula_Mapper
+ze_space_station_chapter_03 by Eula_Mapper
+stadium4 by Sven Viking & Wargasmo
+ma_quasar by Nexon

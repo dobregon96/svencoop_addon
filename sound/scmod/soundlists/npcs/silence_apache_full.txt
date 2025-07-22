@@ -1,0 +1,3 @@
+"apache/ap_rotor2.wav" "null.wav"
+"apache/ap_rotor4.wav" "null.wav"
+"turret/tu_fire1.wav" "null.wav"

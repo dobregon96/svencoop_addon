@@ -82,7 +82,6 @@ models/oghs/cm/wep/w_uzi.mdl
 models/oghs/cm/wep/w_uzi_clip.mdl
 models/oghs/cm/wep/w_uzi_gold.mdl
 sound/kezaeiv/misc/cp_nod_reinf.mp3
-sound/kezaeiv/misc/teleport.wav
 sound/kezaeiv/music/ss1_fight01.ogg
 sound/oghs/cs06/a!.wav
 sound/oghs/cs06/badbone.wav

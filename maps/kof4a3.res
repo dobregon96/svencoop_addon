@@ -1,8 +1,6 @@
 // Created with resguy v9 (September 2018)
 // https://github.com/wootguy/resguy
 
-models/kezaeiv/clssc/wps/kz_mxa_box.mdl
-models/kezaeiv/clssc/wps/superarmor.mdl
 models/kezaeiv/icons/mk_logo_cyan.mdl
 models/kezaeiv/kof/npc/agrunt.mdl
 models/kezaeiv/kof/npc/agruntf.mdl
@@ -14,7 +12,6 @@ models/kezaeiv/kof/npc/babygargf.mdl
 models/kezaeiv/kof/npc/barnabushev.mdl
 models/kezaeiv/kof/npc/barneyhev.mdl
 models/kezaeiv/kof/npc/bgman.mdl
-models/kezaeiv/kof/npc/blkop_apache.mdl
 models/kezaeiv/kof/npc/bullsquid.mdl
 models/kezaeiv/kof/npc/chubby.mdl
 models/kezaeiv/kof/npc/chumtoad.mdl
@@ -88,12 +85,12 @@ models/oghs/cm/wep/w_uzi_gold.mdl
 models/singularity/kz_npcs/massn_ghost.mdl
 models/singularity/kz_npcs/robo_blck.mdl
 models/singularity/kz_npcs/robo_red.mdl
-models/singularity/kz_npcs/strooper_red.mdl
+models/singularity/kz_npcs/strooper_rd.mdl
 models/singularity/kz_npcs/strooper_vio.mdl
+models/singularity/misc/armor_red.mdl
+models/singularity/misc/health_heart.mdl
+models/singularity/misc/kz_mxa_box.mdl
 sound/kezaeiv/misc/cp_nod_reinf.mp3
-sound/kezaeiv/wizard/wiz_spawn.ogg
-sound/kezaeiv/wizard/wiz_taunt.ogg
-sound/kezaeiv/wizard/wiz_tp.ogg
 sound/oghs/cs06/a!.wav
 sound/oghs/cs06/badbone.wav
 sound/oghs/cs06/bell.wav
@@ -128,5 +125,10 @@ sound/singularity/npc/igi2_g36_shot.wav
 sound/singularity/npc/quake3_grenade_shot.wav
 sound/singularity/npc/quake4_plasma_shot.wav
 sound/singularity/npc/starcraft_ghost_rifle.wav
-sound/singularity/pku/superarmor.wav
+sound/singularity/pku/superarmor2.wav
+sound/singularity/pku/superhealth.wav
+sound/singularity/wizard/wiz_spawn.ogg
+sound/singularity/wizard/wiz_taunt.ogg
+sound/singularity/wizard/wiz_tp.ogg
 sprites/singularity/prtl/kz_exit1.spr
+sprites/singularity/prtl/kz_exit4.spr

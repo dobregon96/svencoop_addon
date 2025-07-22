@@ -12,7 +12,6 @@ models/kezaeiv/kof/npc/babygargf.mdl
 models/kezaeiv/kof/npc/barnabushev.mdl
 models/kezaeiv/kof/npc/barneyhev.mdl
 models/kezaeiv/kof/npc/bgman.mdl
-models/kezaeiv/kof/npc/blkop_apache.mdl
 models/kezaeiv/kof/npc/bullsquid.mdl
 models/kezaeiv/kof/npc/chubby.mdl
 models/kezaeiv/kof/npc/chumtoad.mdl
@@ -82,13 +81,15 @@ models/oghs/cm/wep/w_spore_launcher.mdl
 models/oghs/cm/wep/w_uzi.mdl
 models/oghs/cm/wep/w_uzi_clip.mdl
 models/oghs/cm/wep/w_uzi_gold.mdl
+models/singularity/kof/npc/blkop_apache.mdl
 models/singularity/kz_npcs/houndeye_blu_fast.mdl
 models/singularity/kz_npcs/massnf_kez.mdl
 models/singularity/kz_npcs/robo_blck.mdl
 models/singularity/kz_npcs/robo_prpl.mdl
 models/singularity/kz_npcs/robo_red.mdl
-models/singularity/kz_npcs/strooper_red.mdl
+models/singularity/kz_npcs/strooper_rd.mdl
 models/singularity/kz_npcs/strooper_vio.mdl
+models/singularity/misc/kz_mxa_box.mdl
 sound/kezaeiv/misc/cp_nod_reinf.mp3
 sound/kezaeiv/music/tangledearth.ogg
 sound/oghs/cs06/a!.wav
@@ -109,6 +110,7 @@ sound/oghs/cs06/tom2.wav
 sound/oghs/cs06/wrong.wav
 sound/oghs/cs06/zzz.wav
 sound/oghs/misc/cp02_03.mp3
+sound/singularity/c_wep/ammo/pku_ammo4.wav
 sound/singularity/misc/teleport.wav
 sound/singularity/npc/csgo_deag_shot.wav
 sound/singularity/npc/dusk_shotgun_shot.wav

@@ -1,0 +1,7 @@
+"turret/tu_fire1.wav" "weapons/gauss2.wav"
+"turret/tu_ping.wav" "null.wav"
+"turret/tu_active.wav" "mustardf/factorysounds/drone_loop.wav"
+"turret/tu_active2.wav" "mustardf/factorysounds/drone_loop.wav"
+"turret/tu_deploy.wav" "crystal/up.wav"
+"turret/tu_alert.wav" "tfc/weapons/turrspot.wav"
+"turret/tu_retract.wav" "items/r_item2.wav"

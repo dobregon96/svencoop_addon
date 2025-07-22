@@ -1,0 +1,6 @@
+5
+weapon			640 scmod/ut99/2k4shock	0	0	170	45
+weapon_s		640 scmod/ut99/2k4shock	0	45	170	45
+ammo			640 scmod/ut99/pulseammo		0	0	24	24
+crosshair		640 scmod/ut99/crosshair	0	0	31	31
+autoaim			640 crosshairs	72	72	24	24

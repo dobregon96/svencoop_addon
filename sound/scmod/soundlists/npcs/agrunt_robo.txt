@@ -1,0 +1,31 @@
+"agrunt/ag_alert1.wav" "!AGR_ALERT1"
+"agrunt/ag_alert2.wav" "!AGR_ALERT2"
+"agrunt/ag_alert3.wav" "!AGR_ALERT3"
+"agrunt/ag_alert4.wav" "!AGR_ALERT4"
+"agrunt/ag_alert5.wav" "!AGR_ALERT5"
+
+"agrunt/ag_attack1.wav" "null.wav"
+"agrunt/ag_attack2.wav" "null.wav"
+"agrunt/ag_attack3.wav" "null.wav"
+
+"agrunt/ag_die1.wav" "turret/tu_die.wav"
+"agrunt/ag_die2.wav" "turret/tu_die2.wav"
+"agrunt/ag_die3.wav" "turret/tu_die3.wav"
+"agrunt/ag_die4.wav" "turret/tu_die.wav"
+"agrunt/ag_die5.wav" "turret/tu_die2.wav"
+
+"agrunt/ag_fire1.wav" "tfc/weapons/airgun_1.wav"
+"agrunt/ag_fire2.wav" "tfc/weapons/spike1.wav"
+"agrunt/ag_fire3.wav" "tfc/weapons/spike2.wav"
+
+"agrunt/ag_idle1.wav" "!AGR_IDLE1"
+"agrunt/ag_idle2.wav" "!AGR_IDLE2"
+"agrunt/ag_idle3.wav" "!AGR_IDLE3"
+"agrunt/ag_idle4.wav" "!AGR_IDLE4"
+"agrunt/ag_idle5.wav" "!AGR_IDLE5"
+
+"agrunt/ag_pain1.wav" "!AGR_PAIN1"
+"agrunt/ag_pain2.wav" "!AGR_PAIN2"
+"agrunt/ag_pain3.wav" "vox/bizwarn.wav"
+"agrunt/ag_pain4.wav" "vox/bloop.wav"
+"agrunt/ag_pain5.wav" "!AGR_PAIN3"

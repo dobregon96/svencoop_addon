@@ -81,6 +81,8 @@ models/oghs/cm/wep/w_spore_launcher.mdl
 models/oghs/cm/wep/w_uzi.mdl
 models/oghs/cm/wep/w_uzi_clip.mdl
 models/oghs/cm/wep/w_uzi_gold.mdl
+models/singularity/kof/npc/barnabushev.mdl
+models/singularity/kof/npc/islavef.mdl
 models/singularity/kz_npcs/controller_suppressor.mdl
 models/singularity/kz_npcs/islave_aggressive.mdl
 models/singularity/kz_npcs/robo_blck.mdl
