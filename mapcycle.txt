@@ -459,8 +459,10 @@ khl_c05_a2
 khl_c05_a3
 khl_c06
 snglrt_abandoned
-snglrt_bhop_persia_b1
+snglrt_bhop_persia_b2
 snglrt_e1m5_b1
 snglrt_infested
-snglrt_psyko
 snglrt_snipersux
+snglrt_toysoldiers
+snglrt_con3_5
+cow_tycoon
